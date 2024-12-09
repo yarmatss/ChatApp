@@ -1,0 +1,16 @@
+﻿.chat-box {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.message {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+    .message:last-child {
+        border-bottom: none;
+    }
